@@ -74,6 +74,7 @@ class Testapps(unittest.TestCase):
         self.driver.find_element_by_xpath('//span[@class="chUserInfoName appendBottom2 latoBold"]').click()
         self.driver.find_element_by_xpath("//p[text()='Logout']").click()
         #updated
+        #new line
 
 if __name__=="__main__":
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=r'C:\Users\vidya gowda\PycharmProjects\test_framework\reports'),verbosity=2)
